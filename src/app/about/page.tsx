@@ -13,28 +13,36 @@ import {
   Award,
   Users,
   Target,
-  Heart
+  Heart,
+  Truck
 } from 'lucide-react';
 
 export default function AboutPage() {
   const companyInfo = {
-    name: 'Winnerz Marketing Inc.',
-    legalName: 'Winnerz Marketing Incorporated',
-    founded: '2024',
-    ein: 'XX-XXXXXXX',
-    state: 'Delaware',
+    name: 'HWinnerz',
+    legalName: 'HWinnerz Inc.',
+    founded: '2018',
+    registrationNumber: 'CBC-123456789',
+    jurisdiction: 'Canada Business Corporations Act',
     address: {
-      street: '123 Business Avenue',
-      suite: 'Suite 100',
-      city: 'Wilmington',
-      state: 'DE',
-      zipCode: '19801',
+      street: '456 Commerce Drive',
+      suite: 'Suite 200',
+      city: 'Toronto',
+      state: 'ON',
+      zipCode: 'M5V 3A8',
+      country: 'Canada'
+    },
+    usWarehouse: {
+      street: '789 Fulfillment Way',
+      city: 'Buffalo',
+      state: 'NY',
+      zipCode: '14201',
       country: 'United States'
     },
     contact: {
       phone: '+1 (555) 123-4567',
-      email: 'info@winnerzmarketing.com',
-      support: 'support@winnerzmarketing.com'
+      email: 'support@hwinnerz.com',
+      legal: 'legal@hwinnerz.com'
     }
   };
 
@@ -63,19 +71,24 @@ export default function AboutPage() {
 
   const milestones = [
     {
-      year: '2024',
+      year: '2018',
       title: 'Company Founded',
-      description: 'Winnerz Marketing Inc. was officially incorporated in Delaware.'
+      description: 'Incorporated under Canada Business Corporations Act with a vision for global commerce.'
+    },
+    {
+      year: '2020',
+      title: 'Global Expansion',
+      description: 'Expanded sourcing and manufacturing partnerships globally to ensure quality and compliance.'
+    },
+    {
+      year: '2022',
+      title: 'U.S. Fulfillment Centers',
+      description: 'Established U.S. fulfillment centers to provide fast, reliable delivery across America.'
     },
     {
       year: '2024',
-      title: 'E-commerce Platform Launch',
-      description: 'Launched our flagship e-commerce platform with cutting-edge technology.'
-    },
-    {
-      year: '2024',
-      title: 'Growing Team',
-      description: 'Expanded our team of marketing and technology professionals.'
+      title: 'Serving Global Retailers',
+      description: 'Today: Serving global retailers with certified, high-quality products and trusted partnerships.'
     }
   ];
 
@@ -89,11 +102,12 @@ export default function AboutPage() {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            About {companyInfo.name}
+            Who We Are
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            We're a forward-thinking marketing company dedicated to helping businesses 
-            succeed in the digital age through innovative solutions and exceptional service.
+            HWinnerz is an international brand committed to sourcing and delivering quality products 
+            across diverse categories. Founded with a vision to bring reliability and innovation into 
+            global commerce, we ensure compliance, quality, and customer satisfaction at every step.
           </p>
         </motion.div>
 
@@ -107,26 +121,28 @@ export default function AboutPage() {
           >
             <Card className="p-8 h-full">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                Our Story
+                Our Story & Mission
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-400">
                 <p>
-                  Founded in 2024, Winnerz Marketing Inc. emerged from a simple yet powerful vision: 
-                  to democratize access to world-class marketing solutions for businesses of all sizes. 
-                  Our journey began when our founders recognized the growing gap between traditional 
-                  marketing approaches and the rapidly evolving digital landscape.
+                  <strong>Mission:</strong> To deliver premium, certified products with integrity and reliability, 
+                  while building long-term partnerships with retailers and customers worldwide.
                 </p>
                 <p>
-                  Today, we specialize in creating comprehensive e-commerce solutions that combine 
-                  cutting-edge technology with proven marketing strategies. Our platform represents 
-                  the culmination of extensive research, development, and real-world testing to 
-                  deliver results that matter.
+                  HWinnerz was founded with a commitment to bringing reliability and innovation into global commerce. 
+                  We specialize in sourcing and delivering quality products across diverse categories, ensuring 
+                  compliance, quality, and customer satisfaction at every step of our operations.
                 </p>
                 <p>
-                  As a Delaware corporation, we operate with the highest standards of corporate 
-                  governance while maintaining the agility and innovation of a modern tech company. 
-                  Our commitment to excellence drives everything we do, from product development 
-                  to customer service.
+                  As a company incorporated under the Canada Business Corporations Act, we operate with full 
+                  legal compliance and transparency. Our U.S. fulfillment centers enable us to provide 
+                  reliable 2-5 day delivery across the United States, combining international sourcing 
+                  expertise with local fulfillment capabilities.
+                </p>
+                <p>
+                  Our commitment extends beyond products to building lasting relationships based on trust, 
+                  transparency, and exceptional service. We ensure strict quality checks and certifications 
+                  for every product, providing peace of mind for both customers and retail partners.
                 </p>
               </div>
             </Card>
@@ -155,19 +171,19 @@ export default function AboutPage() {
                 <div>
                   <p className="text-gray-500 dark:text-gray-400">Incorporation</p>
                   <p className="font-medium text-gray-900 dark:text-white">
-                    Delaware Corporation
+                    {companyInfo.jurisdiction}
+                  </p>
+                </div>
+                <div>
+                  <p className="text-gray-500 dark:text-gray-400">Registration Number</p>
+                  <p className="font-medium text-gray-900 dark:text-white">
+                    {companyInfo.registrationNumber}
                   </p>
                 </div>
                 <div>
                   <p className="text-gray-500 dark:text-gray-400">Founded</p>
                   <p className="font-medium text-gray-900 dark:text-white">
                     {companyInfo.founded}
-                  </p>
-                </div>
-                <div>
-                  <p className="text-gray-500 dark:text-gray-400">EIN</p>
-                  <p className="font-medium text-gray-900 dark:text-white">
-                    {companyInfo.ein}
                   </p>
                 </div>
               </div>
@@ -260,11 +276,132 @@ export default function AboutPage() {
           </div>
         </motion.div>
 
-        {/* Company Timeline */}
+        {/* Leadership Team */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          className="mb-16"
+        >
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+              Leadership Team
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+              Our experienced leadership team brings decades of expertise in international commerce, 
+              quality assurance, and customer service.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.6 }}
+            >
+              <Card className="p-6 text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white text-xl font-bold">JD</span>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  John Doe, CEO
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">
+                  15+ years in international trade and e-commerce. Former VP of Operations at GlobalTech Solutions.
+                </p>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.7 }}
+            >
+              <Card className="p-6 text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white text-xl font-bold">SM</span>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Sarah Miller, Head of Operations
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">
+                  MBA in Supply Chain Management. 12+ years optimizing logistics and fulfillment operations.
+                </p>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.8 }}
+            >
+              <Card className="p-6 text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white text-xl font-bold">MC</span>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Michael Chen, Head of Quality Assurance
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">
+                  Certified Quality Engineer with ISO 9001 expertise. 10+ years ensuring product compliance and safety.
+                </p>
+              </Card>
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* U.S. Fulfillment Center */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
+          className="mb-16"
+        >
+          <Card className="p-8 bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-2xl font-bold text-green-900 dark:text-green-100 mb-4">
+                  U.S. Fulfillment Center
+                </h3>
+                <p className="text-green-700 dark:text-green-300 mb-4">
+                  Our strategically located U.S. warehouse ensures fast, reliable delivery across America 
+                  with 2-5 day shipping and easy returns processing.
+                </p>
+                <div className="space-y-2 text-sm">
+                  <div className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-green-600" />
+                    <span className="text-green-800 dark:text-green-200">
+                      {companyInfo.usWarehouse.street}, {companyInfo.usWarehouse.city}, {companyInfo.usWarehouse.state} {companyInfo.usWarehouse.zipCode}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Truck className="w-4 h-4 text-green-600" />
+                    <span className="text-green-800 dark:text-green-200">
+                      Shipping Partners: FedEx, UPS, DHL, USPS
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="inline-flex items-center justify-center w-24 h-24 bg-green-100 dark:bg-green-800 rounded-full mb-4">
+                  <Truck className="w-12 h-12 text-green-600 dark:text-green-400" />
+                </div>
+                <p className="text-green-700 dark:text-green-300 font-semibold">
+                  2-5 Day Delivery
+                </p>
+                <p className="text-green-600 dark:text-green-400 text-sm">
+                  Across the United States
+                </p>
+              </div>
+            </div>
+          </Card>
+        </motion.div>
+
+        {/* Company Timeline */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.7 }}
           className="mb-16"
         >
           <div className="text-center mb-12">
@@ -317,23 +454,27 @@ export default function AboutPage() {
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-blue-900 dark:text-blue-100 mb-2">
-                Compliance & Certifications
+                Why Partner With HWinnerz
               </h3>
               <p className="text-blue-700 dark:text-blue-300 mb-4">
-                We maintain the highest standards of business operations and compliance.
+                We bring reliability, rigorous quality controls, scalable logistics, and deep marketplace 
+                expertise to every partnership. Our certifications and compliance ensure peace of mind.
               </p>
               <div className="flex flex-wrap justify-center gap-2">
                 <Badge className="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100">
-                  Delaware Corporation
+                  Canadian Corporation
                 </Badge>
                 <Badge className="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100">
-                  GDPR Compliant
+                  ISO 9001 Certified
                 </Badge>
                 <Badge className="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100">
-                  SOC 2 Type II
+                  CE/FCC/RoHS Compliant
                 </Badge>
                 <Badge className="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100">
-                  PCI DSS Compliant
+                  SGS Tested
+                </Badge>
+                <Badge className="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100">
+                  U.S. Fulfillment Ready
                 </Badge>
               </div>
             </div>
