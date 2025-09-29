@@ -409,7 +409,7 @@ export default function AboutPage() {
               Our Journey
             </h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Key milestones in our company's growth and development.
+              Key milestones in our company&apos;s growth and development.
             </p>
           </div>
 
