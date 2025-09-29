@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin-preview
+Disallow: /api/
+Disallow: /_next/
+Disallow: /checkout
+Disallow: /cart
+Disallow: /orders
+
+Sitemap: https://winnerzmarketing.com/sitemap.xml
