@@ -24,7 +24,7 @@ const mockProduct: Product = {
   images: [
     {
       id: '1',
-      url: 'https://example.com/image.jpg',
+      url: 'https://images.unsplash.com/test-image.jpg',
       alt: 'Test product image',
     },
   ],
@@ -47,7 +47,7 @@ describe('ProductCard Component', () => {
     
     const image = screen.getByAltText('Test product image')
     expect(image).toBeInTheDocument()
-    expect(image).toHaveAttribute('src', 'https://example.com/image.jpg')
+    expect(image).toHaveAttribute('src', 'https://images.unsplash.com/test-image.jpg')
   })
 
   it('shows out of stock badge when product is not in stock', () => {

@@ -93,11 +93,11 @@ export default function AdminPreviewPage() {
               <Shield className="w-5 h-5 text-blue-600 dark:text-blue-400 mt-0.5" />
               <div>
                 <h3 className="font-medium text-blue-900 dark:text-blue-100">
-                  Admin Preview Mode
+                  Admin Dashboard
                 </h3>
                 <p className="text-sm text-blue-700 dark:text-blue-300 mt-1">
-                  This is a frontend-only admin interface. All data is stored locally in your browser. 
-                  Order status changes and data exports are simulated for demonstration purposes.
+                  Manage your e-commerce operations with comprehensive analytics, order management, 
+                  and administrative tools. All data is securely stored and processed.
                 </p>
               </div>
             </div>

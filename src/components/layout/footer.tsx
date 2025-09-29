@@ -50,10 +50,10 @@ export function Footer() {
               Winnerz Marketing Inc. - Your trusted partner for quality products and exceptional service.
             </p>
             <div className="mt-4 space-y-2 text-sm text-gray-600 dark:text-gray-400">
-              <p>123 Business Ave, Suite 100</p>
-              <p>New York, NY 10001</p>
-              <p>Phone: (555) 123-4567</p>
-              <p>Email: info@winnerz.com</p>
+              <p>123 Business Avenue, Suite 100</p>
+              <p>Wilmington, DE 19801</p>
+              <p>Phone: +1 (555) 123-4567</p>
+              <p>Email: info@winnerzmarketing.com</p>
             </div>
           </div>
 

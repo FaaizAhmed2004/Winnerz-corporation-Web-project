@@ -287,7 +287,7 @@ export function ContactForm() {
                 value={formData.email}
                 onChange={handleInputChange}
                 className={errors.email ? 'border-red-500' : ''}
-                placeholder="your.email@example.com"
+                placeholder="your.email@domain.com"
               />
               {errors.email && (
                 <p className="mt-1 text-sm text-red-600 dark:text-red-400">
@@ -410,7 +410,7 @@ export function ContactForm() {
           </Button>
 
           <p className="text-sm text-gray-600 dark:text-gray-400 text-center">
-            * Required fields. We'll respond to your inquiry within 24 hours.
+            * Required fields. We&apos;ll respond to your inquiry within 24 hours.
           </p>
         </form>
       </Card>
