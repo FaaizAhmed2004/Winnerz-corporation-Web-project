@@ -2,9 +2,9 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Winnerz Marketing Inc. - E-commerce Store',
-    short_name: 'Winnerz Store',
-    description: 'Discover quality products at Winnerz Marketing Inc. Your trusted partner for exceptional shopping experiences.',
+    name: 'Hwinnerz Inc. - E-commerce Store',
+    short_name: 'Hwinnerz Store',
+    description: 'Discover quality products at Hwinnerz Inc. Your trusted partner for exceptional shopping experiences.',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',

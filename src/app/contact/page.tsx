@@ -28,36 +28,36 @@ export default function ContactPage() {
       icon: Mail,
       title: 'Email Support',
       description: 'Send us a detailed message',
-      contact: 'support@winnerzmarketing.com',
+      contact: 'support@hwinnerz.com',
       availability: 'Response within 24 hours',
-      action: 'mailto:support@winnerzmarketing.com'
+      action: 'mailto:support@hwinnerz.com'
     },
     {
       icon: MessageCircle,
       title: 'General Inquiries',
       description: 'Questions about our services',
-      contact: 'info@winnerzmarketing.com',
+      contact: 'support@hwinnerz.com',
       availability: 'Response within 48 hours',
-      action: 'mailto:info@winnerzmarketing.com'
+      action: 'mailto:support@hwinnerz.com'
     },
     {
       icon: Users,
       title: 'Sales Team',
       description: 'Discuss partnership opportunities',
-      contact: 'sales@winnerzmarketing.com',
+      contact: 'support@hwinnerz.com',
       availability: 'Response within 12 hours',
-      action: 'mailto:sales@winnerzmarketing.com'
+      action: 'mailto:support@hwinnerz.com'
     }
   ];
 
   const officeInfo = {
     address: {
-      street: '123 Business Avenue',
-      suite: 'Suite 100',
-      city: 'Wilmington',
-      state: 'DE',
-      zipCode: '19801',
-      country: 'United States'
+      street: '456 Commerce Drive',
+      suite: 'Suite 200',
+      city: 'Toronto',
+      state: 'ON',
+      zipCode: 'M5V 3A8',
+      country: 'Canada'
     },
     hours: {
       weekdays: 'Monday - Friday: 9:00 AM - 6:00 PM EST',
@@ -136,7 +136,7 @@ export default function ContactPage() {
               <div className="space-y-3 text-sm">
                 <div>
                   <p className="font-medium text-gray-900 dark:text-white">
-                    Winnerz Marketing Inc.
+                    Hwinnerz Inc.
                   </p>
                   <p className="text-gray-600 dark:text-gray-400">
                     {officeInfo.address.street}

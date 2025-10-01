@@ -1,4 +1,4 @@
-# Winnerz Marketing Inc. - E-commerce Platform
+# Hwinnerz Inc. - E-commerce Platform
 
 A modern, fully-featured e-commerce website built with Next.js 14, TypeScript, and Tailwind CSS. This is a frontend-only implementation that simulates a complete shopping experience without requiring any backend infrastructure.
 
@@ -225,7 +225,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 For support and questions:
-- **Email**: support@winnerzmarketing.com
+- **Email**: support@hwinnerz.com
 - **Documentation**: Check the `/docs` folder for detailed guides
 - **Issues**: Create an issue on GitHub for bug reports
 
@@ -239,4 +239,4 @@ For support and questions:
 
 ---
 
-**Winnerz Marketing Inc.** - Building exceptional digital experiences.
+**Hwinnerz Inc.** - Building exceptional digital experiences.

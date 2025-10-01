@@ -105,7 +105,7 @@ export default function Error({ error, reset }: ErrorProps) {
               </p>
               <div className="flex flex-col gap-2 text-sm">
                 <a 
-                  href="mailto:support@winnerzmarketing.com" 
+                  href="mailto:support@hwinnerz.com" 
                   className="text-blue-600 dark:text-blue-400 hover:underline flex items-center justify-center gap-2"
                 >
                   <Bug className="w-4 h-4" />

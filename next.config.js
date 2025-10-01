@@ -16,7 +16,7 @@ const nextConfig = {
   
   // Environment variables
   env: {
-    NEXT_PUBLIC_BASE_URL: process.env.NEXT_PUBLIC_BASE_URL || 'https://winnerzmarketing.com',
+    NEXT_PUBLIC_BASE_URL: process.env.NEXT_PUBLIC_BASE_URL || 'https://hwinnerz.com',
   },
   
   // Disable ESLint and TypeScript errors during build

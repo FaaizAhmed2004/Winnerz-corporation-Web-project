@@ -47,13 +47,13 @@ export function Footer() {
               </div>
             </Link>
             <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">
-              Winnerz Marketing Inc. - Your trusted partner for quality products and exceptional service.
+              Hwinnerz Inc. - Your trusted partner for quality products and exceptional service.
             </p>
             <div className="mt-4 space-y-2 text-sm text-gray-600 dark:text-gray-400">
-              <p>123 Business Avenue, Suite 100</p>
-              <p>Wilmington, DE 19801</p>
+              <p>456 Commerce Drive, Suite 200</p>
+              <p>Toronto, ON M5V 3A8, Canada</p>
               <p>Phone: +1 (555) 123-4567</p>
-              <p>Email: info@winnerzmarketing.com</p>
+              <p>Email: support@hwinnerz.com</p>
             </div>
           </div>
 
@@ -83,7 +83,7 @@ export function Footer() {
         <div className="mt-12 border-t border-gray-200 pt-8 dark:border-gray-700">
           <div className="flex flex-col items-center justify-between space-y-4 sm:flex-row sm:space-y-0">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              © {currentYear} Winnerz Marketing Inc. All rights reserved.
+              © {currentYear} Hwinnerz Inc. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link

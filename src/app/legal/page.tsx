@@ -74,12 +74,12 @@ export default function LegalPage() {
                         1. Acceptance of Terms
                       </h3>
                       <p>
-                        By accessing, browsing, or using this website operated by Winnerz Marketing Inc. ("Company," "we," "us," or "our"), 
+                        By accessing, browsing, or using this website operated by Hwinnerz Inc. ("Company," "we," "us," or "our"), 
                         you ("User," "you," or "your") acknowledge that you have read, understood, and agree to be bound by these Terms of Service 
                         ("Terms") and all applicable laws and regulations. If you do not agree with any part of these Terms, you must not use our website or services.
                       </p>
                       <p className="mt-3">
-                        These Terms constitute a legally binding agreement between you and Winnerz Marketing Inc. Your continued use of our services 
+                        These Terms constitute a legally binding agreement between you and Hwinnerz Inc. Your continued use of our services 
                         after any modifications to these Terms constitutes acceptance of such changes.
                       </p>
                     </section>
@@ -90,7 +90,7 @@ export default function LegalPage() {
                       </h3>
                       <p>For the purposes of these Terms:</p>
                       <ul className="list-disc list-inside mt-2 space-y-1">
-                        <li><strong>"Service"</strong> refers to the e-commerce platform and all related services provided by Winnerz Marketing Inc.</li>
+                        <li><strong>"Service"</strong> refers to the e-commerce platform and all related services provided by Hwinnerz Inc.</li>
                         <li><strong>"Products"</strong> refers to any goods, services, or digital content offered for sale through our platform.</li>
                         <li><strong>"Account"</strong> refers to the user account created to access certain features of our Service.</li>
                         <li><strong>"Content"</strong> refers to all text, graphics, images, music, software, audio, video, information, and other materials.</li>
@@ -174,7 +174,7 @@ export default function LegalPage() {
                       </h3>
                       <p>
                         All content on this website, including but not limited to text, graphics, logos, images, audio clips, video clips, 
-                        digital downloads, data compilations, and software, is the property of Winnerz Marketing Inc. or its content suppliers 
+                        digital downloads, data compilations, and software, is the property of Hwinnerz Inc. or its content suppliers 
                         and is protected by United States and international copyright, trademark, patent, trade secret, and other intellectual property laws.
                       </p>
                       <p className="mt-3">
@@ -183,7 +183,7 @@ export default function LegalPage() {
                       </p>
                       <p className="mt-3">
                         Our trademarks, service marks, and logos used and displayed on this website are registered and unregistered trademarks 
-                        of Winnerz Marketing Inc. Nothing on this website should be construed as granting any license or right to use any trademark without our written permission.
+                        of Hwinnerz Inc. Nothing on this website should be construed as granting any license or right to use any trademark without our written permission.
                       </p>
                     </section>
 
@@ -217,7 +217,7 @@ export default function LegalPage() {
                         10. Limitation of Liability
                       </h3>
                       <p>
-                        TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WINNERZ MARKETING INC. SHALL NOT BE LIABLE FOR ANY INDIRECT, 
+                        TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, HWINNERZ INC. SHALL NOT BE LIABLE FOR ANY INDIRECT, 
                         INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, USE, 
                         GOODWILL, OR OTHER INTANGIBLE LOSSES, ARISING FROM OR RELATING TO YOUR USE OF OUR SERVICE.
                       </p>
@@ -232,7 +232,7 @@ export default function LegalPage() {
                         11. Indemnification
                       </h3>
                       <p>
-                        You agree to defend, indemnify, and hold harmless Winnerz Marketing Inc., its officers, directors, employees, agents, 
+                        You agree to defend, indemnify, and hold harmless Hwinnerz Inc., its officers, directors, employees, agents, 
                         and affiliates from and against any claims, damages, obligations, losses, liabilities, costs, or debt, and expenses 
                         (including attorney's fees) arising from your use of our Service, violation of these Terms, or infringement of any third-party rights.
                       </p>
@@ -307,7 +307,7 @@ export default function LegalPage() {
                       </h3>
                       <p>
                         These Terms, together with our Privacy Policy and any other legal notices published by us on our Service, 
-                        constitute the entire agreement between you and Winnerz Marketing Inc. regarding your use of our Service.
+                        constitute the entire agreement between you and Hwinnerz Inc. regarding your use of our Service.
                       </p>
                     </section>
 
@@ -319,10 +319,10 @@ export default function LegalPage() {
                         For questions about these Terms of Service, please contact us at:
                       </p>
                       <div className="mt-2 space-y-1">
-                        <p><strong>Winnerz Marketing Inc.</strong></p>
-                        <p>123 Business Avenue, Suite 100</p>
-                        <p>Wilmington, DE 19801</p>
-                        <p>Email: <a href="mailto:legal@winnerzmarketing.com" className="text-blue-600 dark:text-blue-400 hover:underline">legal@winnerzmarketing.com</a></p>
+                        <p><strong>Hwinnerz Inc.</strong></p>
+                        <p>456 Commerce Drive, Suite 200</p>
+                        <p>Toronto, ON M5V 3A8, Canada</p>
+                        <p>Email: <a href="mailto:support@hwinnerz.com" className="text-blue-600 dark:text-blue-400 hover:underline">support@hwinnerz.com</a></p>
                         <p>Phone: <a href="tel:+15551234567" className="text-blue-600 dark:text-blue-400 hover:underline">+1 (555) 123-4567</a></p>
                         <p>Business Hours: Monday - Friday, 9:00 AM - 5:00 PM EST</p>
                       </div>

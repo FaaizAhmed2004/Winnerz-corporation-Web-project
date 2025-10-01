@@ -10,25 +10,25 @@ import { SkipNav } from '@/components/ui/skip-nav';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Winnerz Marketing Inc. - Premium E-commerce Store',
-  description: 'Discover quality products at Winnerz Marketing Inc. Your trusted partner for exceptional shopping experiences.',
+  title: 'Hwinnerz Inc. - Premium E-commerce Store',
+  description: 'Discover quality products at Hwinnerz Inc. Your trusted partner for exceptional shopping experiences.',
   keywords: 'ecommerce, shopping, quality products, winnerz marketing',
-  authors: [{ name: 'Winnerz Marketing Inc.' }],
+  authors: [{ name: 'Hwinnerz Inc.' }],
   icons: {
     icon: '/favicon.svg',
     shortcut: '/favicon.svg',
     apple: '/favicon.svg',
   },
   openGraph: {
-    title: 'Winnerz Marketing Inc. - Premium E-commerce Store',
-    description: 'Discover quality products at Winnerz Marketing Inc.',
+    title: 'Hwinnerz Inc. - Premium E-commerce Store',
+    description: 'Discover quality products at Hwinnerz Inc.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Winnerz Marketing Inc.',
-    description: 'Discover quality products at Winnerz Marketing Inc.',
+    title: 'Hwinnerz Inc.',
+    description: 'Discover quality products at Hwinnerz Inc.',
   },
   viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
