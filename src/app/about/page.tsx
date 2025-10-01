@@ -19,11 +19,11 @@ import {
 
 export default function AboutPage() {
   const companyInfo = {
-    name: 'HWinnerz',
-    legalName: 'HWinnerz Inc.',
-    founded: '2018',
+    name: 'Hwinnerz',
+    legalName: 'Hwinnerz Inc.',
+    founded: '2023',
     registrationNumber: 'CBC-123456789',
-    jurisdiction: 'Canada Business Corporations Act',
+    jurisdiction: 'North American Operations',
     address: {
       street: '456 Commerce Drive',
       suite: 'Suite 200',
@@ -71,24 +71,24 @@ export default function AboutPage() {
 
   const milestones = [
     {
-      year: '2018',
+      year: '2023',
       title: 'Company Founded',
-      description: 'Incorporated under Canada Business Corporations Act with a vision for global commerce.'
+      description: 'Hwinnerz was established with a vision to make online shopping more convenient and trustworthy.'
     },
     {
-      year: '2020',
-      title: 'Global Expansion',
-      description: 'Expanded sourcing and manufacturing partnerships globally to ensure quality and compliance.'
-    },
-    {
-      year: '2022',
-      title: 'U.S. Fulfillment Centers',
-      description: 'Established U.S. fulfillment centers to provide fast, reliable delivery across America.'
+      year: '2023',
+      title: 'Product Curation',
+      description: 'Built partnerships with verified suppliers and trusted brands across multiple categories.'
     },
     {
       year: '2024',
-      title: 'Serving Global Retailers',
-      description: 'Today: Serving global retailers with certified, high-quality products and trusted partnerships.'
+      title: 'North American Expansion',
+      description: 'Expanded operations to serve customers across North America with fast, reliable shipping.'
+    },
+    {
+      year: '2024',
+      title: 'Customer-First Focus',
+      description: 'Today: Committed to exceptional customer service and satisfaction with every order.'
     }
   ];
 
@@ -102,12 +102,11 @@ export default function AboutPage() {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Who We Are
+            About Us | Hwinnerz
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            HWinnerz is an international brand committed to sourcing and delivering quality products 
-            across diverse categories. Founded with a vision to bring reliability and innovation into 
-            global commerce, we ensure compliance, quality, and customer satisfaction at every step.
+            Welcome to Hwinnerz, your trusted destination for quality products, reliable service, 
+            and an exceptional online shopping experience.
           </p>
         </motion.div>
 
@@ -121,28 +120,46 @@ export default function AboutPage() {
           >
             <Card className="p-8 h-full">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                Our Story & Mission
+                Welcome to Hwinnerz
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-400">
                 <p>
-                  <strong>Mission:</strong> To deliver premium, certified products with integrity and reliability, 
-                  while building long-term partnerships with retailers and customers worldwide.
+                  Founded over a year ago, Hwinnerz began with a simple vision — to make online shopping more convenient, 
+                  affordable, and trustworthy for customers across North America. From our early beginnings, we've focused 
+                  on delivering a diverse range of products backed by a commitment to value, quality, and customer satisfaction.
                 </p>
                 <p>
-                  HWinnerz was founded with a commitment to bringing reliability and innovation into global commerce. 
-                  We specialize in sourcing and delivering quality products across diverse categories, ensuring 
-                  compliance, quality, and customer satisfaction at every step of our operations.
+                  At Hwinnerz, we take pride in being more than just another online store. Our team is made up of passionate 
+                  professionals with extensive experience in retail, logistics, and customer care, ensuring that every order 
+                  is handled with care from checkout to delivery.
                 </p>
                 <p>
-                  As a company incorporated under the Canada Business Corporations Act, we operate with full 
-                  legal compliance and transparency. Our U.S. fulfillment centers enable us to provide 
-                  reliable 2-5 day delivery across the United States, combining international sourcing 
-                  expertise with local fulfillment capabilities.
+                  We partner with verified suppliers and trusted brands to bring you the best in home essentials, electronics, 
+                  fashion, beauty, and lifestyle products — all curated with the modern customer in mind.
                 </p>
+                <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+                  <h3 className="text-lg font-semibold text-blue-900 dark:text-blue-100 mb-3">Our Goal is Simple:</h3>
+                  <div className="space-y-2">
+                    <div className="flex items-center">
+                      <span className="text-green-600 dark:text-green-400 mr-2">✅</span>
+                      <span className="text-blue-800 dark:text-blue-200">Offer a wide selection of trending, high-quality products.</span>
+                    </div>
+                    <div className="flex items-center">
+                      <span className="text-green-600 dark:text-green-400 mr-2">✅</span>
+                      <span className="text-blue-800 dark:text-blue-200">Provide transparent policies and secure payments.</span>
+                    </div>
+                    <div className="flex items-center">
+                      <span className="text-green-600 dark:text-green-400 mr-2">✅</span>
+                      <span className="text-blue-800 dark:text-blue-200">Deliver fast shipping and responsive customer support.</span>
+                    </div>
+                  </div>
+                </div>
                 <p>
-                  Our commitment extends beyond products to building lasting relationships based on trust, 
-                  transparency, and exceptional service. We ensure strict quality checks and certifications 
-                  for every product, providing peace of mind for both customers and retail partners.
+                  Customer satisfaction is at the heart of everything we do. Whether you're shopping for your home, 
+                  your loved ones, or yourself, Hwinnerz is here to make every purchase smooth, secure, and satisfying.
+                </p>
+                <p className="font-semibold text-gray-800 dark:text-gray-200">
+                  Thank you for choosing Hwinnerz — where every order counts and every customer matters.
                 </p>
               </div>
             </Card>
