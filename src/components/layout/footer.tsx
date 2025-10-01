@@ -18,10 +18,10 @@ export function Footer() {
     {
       title: 'Customer Service',
       links: [
-        { name: 'Help Center', href: '#' },
-        { name: 'Returns', href: '#' },
-        { name: 'Shipping Info', href: '#' },
-        { name: 'Size Guide', href: '#' }
+        { name: 'Help Center', href: '/contact' },
+        { name: 'Returns & Refunds', href: '/returns' },
+        { name: 'Shipping Policy', href: '/shipping' },
+        { name: 'Track Orders', href: '/orders' }
       ]
     },
     {

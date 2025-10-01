@@ -155,7 +155,7 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <p>
-                  Customer satisfaction is at the heart of everything we do. Whether you're shopping for your home, 
+                  Customer satisfaction is at the heart of everything we do. Whether you&apos;re shopping for your home, 
                   your loved ones, or yourself, Hwinnerz is here to make every purchase smooth, secure, and satisfying.
                 </p>
                 <p className="font-semibold text-gray-800 dark:text-gray-200">
